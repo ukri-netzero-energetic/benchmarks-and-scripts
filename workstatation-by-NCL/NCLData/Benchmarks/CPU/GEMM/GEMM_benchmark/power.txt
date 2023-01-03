@@ -1,0 +1,145 @@
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+2022-11-23T18:51:29,125769747+00:00, 101921131720
+2022-11-23T18:51:29,227712737+00:00, 101925096798
+2022-11-23T18:51:29,329476730+00:00, 101929548691
+2022-11-23T18:51:29,431306435+00:00, 101933132971
+2022-11-23T18:51:29,533162572+00:00, 101936016631
+2022-11-23T18:51:29,634940619+00:00, 101940340228
+2022-11-23T18:51:29,736774735+00:00, 101943845102
+2022-11-23T18:51:29,838614278+00:00, 101947885680
+2022-11-23T18:51:29,940338927+00:00, 101952024158
+2022-11-23T18:51:30,042244931+00:00, 101955288554
+2022-11-23T18:51:30,144219311+00:00, 101958437349
+2022-11-23T18:51:30,245876353+00:00, 101962756247
+2022-11-23T18:51:30,347749045+00:00, 101966442029
+2022-11-23T18:51:30,449636009+00:00, 101969838871
+2022-11-23T18:51:30,551361974+00:00, 101974248649
+2022-11-23T18:51:30,653168666+00:00, 101977708235
+2022-11-23T18:51:30,755021697+00:00, 101981094457
+2022-11-23T18:51:30,856696281+00:00, 101985437891
+2022-11-23T18:51:30,958426774+00:00, 101989181289
+2022-11-23T18:51:31,060219140+00:00, 101993232976
+2022-11-23T18:51:31,161976023+00:00, 101996844234
+2022-11-23T18:51:31,263720751+00:00, 102000970078
+2022-11-23T18:51:31,365446030+00:00, 102004700842
+2022-11-23T18:51:31,467069168+00:00, 102008563686
+2022-11-23T18:51:31,568993754+00:00, 102012616898
+2022-11-23T18:51:31,670760492+00:00, 102015961616
+2022-11-23T18:51:31,772539857+00:00, 102020436031
+2022-11-23T18:51:31,874467928+00:00, 102023913989
+2022-11-23T18:51:31,976296735+00:00, 102027421792
+2022-11-23T18:51:32,078116976+00:00, 102031851285
+2022-11-23T18:51:32,179994222+00:00, 102035911211
+2022-11-23T18:51:32,281927733+00:00, 102039827705
+2022-11-23T18:51:32,384074748+00:00, 102043273802
+2022-11-23T18:51:32,485956904+00:00, 102047746996
+2022-11-23T18:51:32,587709853+00:00, 102051242593
+2022-11-23T18:51:32,689428995+00:00, 102054756012
+2022-11-23T18:51:32,791368701+00:00, 102059072651
+2022-11-23T18:51:32,893199231+00:00, 102062543284
+2022-11-23T18:51:32,994842516+00:00, 102066166139
+2022-11-23T18:51:33,096630442+00:00, 102070315054
+2022-11-23T18:51:33,198440529+00:00, 102073865277
+2022-11-23T18:51:33,300086515+00:00, 102077137363
+2022-11-23T18:51:33,401861054+00:00, 102081665367
+2022-11-23T18:51:33,503709097+00:00, 102085402356
+2022-11-23T18:51:33,605509451+00:00, 102088703679
+2022-11-23T18:51:33,707182408+00:00, 102092703974
+2022-11-23T18:51:33,808994144+00:00, 102096723983
+2022-11-23T18:51:33,910729010+00:00, 102100113012
+2022-11-23T18:51:34,012361449+00:00, 102104760339
+2022-11-23T18:51:34,114258085+00:00, 102108511794
+2022-11-23T18:51:34,216145486+00:00, 102111931769
+2022-11-23T18:51:34,317783614+00:00, 102116332514
+2022-11-23T18:51:34,419520698+00:00, 102119891709
+2022-11-23T18:51:34,521333405+00:00, 102123401893
+2022-11-23T18:51:34,623059149+00:00, 102128521753
+2022-11-23T18:51:34,724898063+00:00, 102132612502
+2022-11-23T18:51:34,826640611+00:00, 102136195256
+2022-11-23T18:51:34,928179039+00:00, 102139924434
+2022-11-23T18:51:35,030041518+00:00, 102143899826
+2022-11-23T18:51:35,131832677+00:00, 102147440284
+2022-11-23T18:51:35,233427201+00:00, 102151507046
+2022-11-23T18:51:35,335274859+00:00, 102155354692
+2022-11-23T18:51:35,437199744+00:00, 102158935982
+2022-11-23T18:51:35,539088998+00:00, 102162220946
+2022-11-23T18:51:35,641018098+00:00, 102166525806
+2022-11-23T18:51:35,742978542+00:00, 102170332803
+2022-11-23T18:51:35,844816219+00:00, 102174651151
+2022-11-23T18:51:35,946451368+00:00, 102178748309
+2022-11-23T18:51:36,048097078+00:00, 102182022898
+2022-11-23T18:51:36,149739076+00:00, 102185468262
+2022-11-23T18:51:36,251516467+00:00, 102189482779
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds

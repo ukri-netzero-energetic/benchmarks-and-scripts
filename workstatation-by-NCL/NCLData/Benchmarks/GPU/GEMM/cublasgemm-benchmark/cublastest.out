@@ -1,0 +1,6 @@
+
+cublasSgemm test result:
+
+running with min_m_k_n: 4096 max_m_k_n: 4096 repeats: 1
+allocating device variables
+float32: size 4096 average: 0.0273213 s 

@@ -1,0 +1,4 @@
+2022-11-14 16:56:34.150 [info] update#setState idle
+2022-11-14 16:56:34.992 [info] Starting extension host with pid 17547 (fork() took 4 ms).
+2022-11-14 16:56:51.900 [info] Extension host with pid 17547 exited with code: 0, signal: null.
+2022-11-14 16:56:51.904 [info] Waiting for extension host with pid 17547 to exit.

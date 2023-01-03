@@ -1,0 +1,3 @@
+2022-11-14 16:58:16.228 [info] [perf] Render performance baseline is 16ms
+2022-11-14 16:58:22.203 [warning] [backup tracker] suspended, ignoring dirty change event untitled:/directory-to-open 
+2022-11-14 16:58:22.208 [warning] [backup tracker] suspended, ignoring unregister event untitled:/directory-to-open 

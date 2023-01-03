@@ -1,0 +1,2 @@
+2022-11-14 16:57:33.296 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/directory-to-open","scheme":"file"},"type":1,"exists":false}],"filesToDiff":[],"filesToMerge":[]}
+2022-11-14 16:57:36.190 [info] [perf] Render performance baseline is 18ms

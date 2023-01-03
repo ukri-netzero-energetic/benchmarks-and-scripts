@@ -1,0 +1,36 @@
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
+Sampling /sys/class/powercap/intel-rapl/intel-rapl:0/energy_uj
+Cadence = 0.1 seconds
