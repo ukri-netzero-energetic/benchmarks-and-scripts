@@ -17,6 +17,8 @@ export OMP_NUM_THREADS=1; ./sgemmbench.mkl 4096
 ```
 You should receive (on nextgenio-amd01 node) output similar to:
 ```
-  (example output to follow)
+14:11:34  
+mkbane@nextgenio-amd01 CPU$ export OMP_NUM_THREADS=1; ./sgemmbench.mkl 4096
+SGEMM Performance N =   4096 :    75.0101 GF
 ```
 Note that Intel 'run.sh' uses numactl. Note that could vary the number of OMP_NUM_THREADS to be the number of cores.
