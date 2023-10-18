@@ -3,9 +3,10 @@
 echo NB only currently launches FPGA power monitor 
 echo To Do \- add launch of host CPU monitoring
 
-## set NGIO_SCRIPTS_DIR appropriately (typically git HEAD/measurement_scripts
-NGIO_SCRIPTS_DIR=.
-POWER_SAMPLER_EXE=${NGIO_SCRIPTS_DIR}/measurement_scripts/sample_amdFPGA_power.sh
+## set NGIO_SCRIPTS_DIR appropriately 
+## Typically same directory as this script, which is checked out as git HEAD/measurement_scripts
+NGIO_SCRIPTS_DIR=`dirname $0`
+POWER_SAMPLER_EXE=${NGIO_SCRIPTS_DIR}/sample_amdFPGA_power.sh
 
 usage () {
   echo $0 MSECS DATAFILE EXE \[parameters\]
@@ -14,6 +15,10 @@ usage () {
   echo $POWER_SAMPLER_EXE
   echo saving info to \$DATAFILE
 }
+
+trap 'echo Error at line ${LINENO};usage;echo Aborting;exit -100' ERR
+echo $0 uses power sampler\:
+ls -lt ${POWER_SAMPLER_EXE}
 
 if [[ $# -ge 3 ]]; then
   DELAY=$1

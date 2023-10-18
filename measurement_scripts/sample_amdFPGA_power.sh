@@ -33,7 +33,7 @@ fi
 
 # Sampling cadence in seconds
 CADENCE=${1}
-# datefile to save data
+# datafile to save data
 DATAFILE=${2}
 if test -r $DATAFILE ; then
     usage
