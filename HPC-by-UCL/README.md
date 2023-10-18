@@ -1,6 +1,6 @@
 # ENERGETIC
 
-Scripts and instructions to run benchmarks used by UCL for the [ENERGETIC project](https://github.com/UCL-ARC/research-software-opportunities/issues/670).
+Scripts and instructions to run benchmarks used by UCL (initially and then further developed) for the [ENERGETIC project](https://github.com/UCL-ARC/research-software-opportunities/issues/670).
 
 The directory structure is split by:
 
