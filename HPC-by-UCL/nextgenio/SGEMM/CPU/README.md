@@ -22,3 +22,17 @@ mkbane@nextgenio-amd01 CPU$ export OMP_NUM_THREADS=1; ./sgemmbench.mkl 4096
 SGEMM Performance N =   4096 :    75.0101 GF
 ```
 Note that Intel 'run.sh' uses numactl. Note that could vary the number of OMP_NUM_THREADS to be the number of cores.
+
+# Measuring Power and Energy Consumption of CPU
+On nextgenio, likwid can be used to measure CPU power on nextgenio nodes. Firstly load the required modules e.g.
+'''
+module load compiler-rt likwid
+'''
+Likwid supports both sampling of a performance counter (e.g. use of likwid-perfcounter e.g.
+'''
+likwid-perfctr -c N -group ENERGY -t 100ms -O bash my_script.sh >> likwid_output.csv 2>&1
+'''
+or via the likwid-powermeter wrapper to get energy consumed:
+'''
+likwid-powermeter ./a.out arg1 arg2
+'''
