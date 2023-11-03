@@ -60,7 +60,7 @@ int main(int argc, char *argv[]) {
 	timeNanosecs_0 = timeNanosecs_1;
 	power_0 = power_1;
       } // while
-      printf("Read %d pairs of points.\nTotal energy = %f mJoules\n", numPairs, totalEnergy);
+      printf("Read %d pairs of points.\nTotal energy = %f microJoules\n", numPairs, totalEnergy);
     }
   }
 }
