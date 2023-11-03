@@ -1,12 +1,6 @@
 #!/bin/bash
 
 # WARNING: numbering is as per AMD i.e. from 1 not 0
-# presumes 'likwid' available e.g. via 'module load likwid'
-trap 'echo likwid not available \- please load \(with any dependencies\); exit -1' ERR
-echo using\:
-likwid-powermeter -v
-echo for comparison to using AMD RAPL counters
-trap unset ERR
 
 # expect something to measure
 if [[ $# -lt 1 ]]; then
