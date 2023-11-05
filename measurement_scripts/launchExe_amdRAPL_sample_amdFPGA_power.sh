@@ -68,12 +68,17 @@ ${POWER_SAMPLER_EXE} $ms $DATAFILE &
 # by use of $CPU_ENERGY_MONITOR
 ## debug: echo Now running ${EXE}
 ${CPU_ENERGY_MONITOR} ${EXE} ${PARAMETERS}
+echo Run completed at `date +%s.%N`
 ## debug: echo $EXE has finished
 
 ### useful for debugging but isn't energy of EXE
 # echo sleep 5 seconds to get background power consumption
 # sleep 5
 
+# turn off trap (in case there is no sleep)
+trap '' ERR
+killall sleep # force update of FPGA power monitor
 kill %1
 echo monitoring killed at `date +%s.%N`
-echo completed\. See $DATAFILE and integrate power \(2nd col\) over time \(1st col\)
+
+echo Completed\. See $DATAFILE and integrate power \(2nd col\) over time \(1st col\)

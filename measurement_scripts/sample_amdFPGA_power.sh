@@ -43,7 +43,11 @@ if test -r $DATAFILE ; then
     exit -5
 fi
 
+# trap on below appears unreliable (so choose $CADENCE to be small enough 
+# and killall sleep processes before kill this script
 while /bin/true; do
     echo `date +%s.%N` `cat $COUNTER` >> ${DATAFILE}
     sleep $CADENCE
 done
+echo $0 FINISHED
+
