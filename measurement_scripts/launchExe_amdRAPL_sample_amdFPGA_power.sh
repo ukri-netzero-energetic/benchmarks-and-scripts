@@ -8,6 +8,9 @@ POWER_SAMPLER_EXE=${NGIO_SCRIPTS_DIR}/sample_amdFPGA_power.sh
 # script to get energy
 CPU_ENERGY_MONITOR=${NGIO_SCRIPTS_DIR}/amdRAPL.sh
 
+### history
+# 09Nov2023 (mkbane): add timing for executable, move elements out of timing|polling interval
+
 
 usage () {
   echo $0 MSECS DATAFILE EXE \[parameters\]
@@ -67,8 +70,9 @@ ${POWER_SAMPLER_EXE} $ms $DATAFILE &
 # start named application and record CPU host energy consumed
 # by use of $CPU_ENERGY_MONITOR
 ## debug: echo Now running ${EXE}
+startRun=`date +%s.%N`
 ${CPU_ENERGY_MONITOR} ${EXE} ${PARAMETERS}
-echo Run completed at `date +%s.%N`
+finishRun=`date +%s.%N`
 ## debug: echo $EXE has finished
 
 ### useful for debugging but isn't energy of EXE
@@ -79,6 +83,10 @@ echo Run completed at `date +%s.%N`
 trap '' ERR
 killall sleep # force update of FPGA power monitor
 kill %1
-echo monitoring killed at `date +%s.%N`
 
+# output info
+echo Run started\: $startRun
+echo Run finished\: $finishRun
+echo Run time \(seconds\)\: `echo $finishRun\-$startRun|bc`
+echo Monitoring killed at `date +%s.%N`
 echo Completed\. See $DATAFILE and integrate power \(2nd col\) over time \(1st col\)
