@@ -39,13 +39,22 @@ done
 finish_socket1_energy=`cat ${ENERGY_DIR}/energy65_input`
 finish_socket2_energy=`cat ${ENERGY_DIR}/energy66_input`
 
+core_energy=0
+total_core_energy=0
+
 for k in `seq 1 64`;do 
-    let core_energy=(${finish_core[$k]}-${start_core[$k]})/1000
+    let core_energy=(${finish_core[$k]}-${start_core[$k]})
+    let total_core_energy=$total_core_energy+$core_energy
     #DEBUG echo core $k ${finish_core[$k]} ${start_core[$k]} $core_energy
-    echo core $k consumed $core_energy milliJoules
+    #DEBUG echo core $k consumed $core_energy microJoules
+    #DEBUG echo total core energy now\: $total_core_energy microJoules
 done
 
-let energy1=($finish_socket1_energy-$start_socket1_energy)/1000
-let energy2=($finish_socket2_energy-$start_socket2_energy)/1000
-echo socket 1 energy consumed\: $energy1 milliJoules
-echo socket 2 energy consumed\: $energy2 milliJoules
+let energy1=($finish_socket1_energy-$start_socket1_energy)
+let energy2=($finish_socket2_energy-$start_socket2_energy)
+let total_socket_consumed=($energy1+$energy2)/1000
+let total_core_consumed=$total_core_energy/1000
+#DEBUG echo socket 1 energy consumed\: $energy1 microJoules
+#DEBUG echo socket 2 energy consumed\: $energy2 microJoules
+echo Sockets consumed total\: $total_socket_consumed milliJoules
+echo Cores consumed total\: $total_core_consumed milliJoules
