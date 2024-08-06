@@ -8,8 +8,12 @@
 
 ### MKB: record power directly (prev version only had some not all rails for I,V)
 ### MKB: COUNTER_DIR is host & device specific
+
+## EPCC (nextgenio-amd01)
 COUNTER_DIR="/sys/devices/pci0000:c0/0000:c0:01.1/0000:c3:00.1/xmc.u.19922944"
-COUNTER=$COUNTER_DIR/xmc_power # this is mW
+## ETHZ (alveo-u280-01.ethz.ch)
+COUNTER_DIR="/sys/devices/pci0000:00/0000:00:02.4/0000:06:00.1/xmc.u.18874368"
+COUNTER=$COUNTER_DIR/xmc_power # this is microWatts
 if  ! test -r $COUNTER ; then 
     echo Error \- expected counter file
     echo $COUNTER 
@@ -19,8 +23,9 @@ fi
 
 
 usage() {
+    echo usage\:
     echo $0 INTERVAL DATAFILE
-    echo usage\: records power \(milliWatt\) of FPGA power at 
+    echo records power \(microWatt\) of FPGA power at 
     echo $COUNTER 
     echo every INTERVAL seconds to \(unique\) DATAFILE
 }
